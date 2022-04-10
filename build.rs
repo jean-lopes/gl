@@ -20,25 +20,25 @@ fn main() {
 }
 
 fn version() -> (u8, u8) {
-    if      cfg!(feature = "10") { (1,0) } 
-    else if cfg!(feature = "11") { (1,1) }
-    else if cfg!(feature = "12") { (1,2) }
-    else if cfg!(feature = "13") { (1,3) }
-    else if cfg!(feature = "14") { (1,4) }
-    else if cfg!(feature = "15") { (1,5) }
-    else if cfg!(feature = "20") { (2,0) }
-    else if cfg!(feature = "21") { (2,1) }
-    else if cfg!(feature = "30") { (3,0) }
-    else if cfg!(feature = "31") { (3,1) }
-    else if cfg!(feature = "32") { (3,2) }
-    else if cfg!(feature = "33") { (3,3) }
-    else if cfg!(feature = "40") { (4,0) }
-    else if cfg!(feature = "41") { (4,1) }
-    else if cfg!(feature = "42") { (4,2) }
-    else if cfg!(feature = "43") { (4,3) }
-    else if cfg!(feature = "44") { (4,4) }
-    else if cfg!(feature = "45") { (4,5) }
-    else if cfg!(feature = "46") { (4,6) }
+    if      cfg!(feature = "gl10") { (1,0) } 
+    else if cfg!(feature = "gl11") { (1,1) }
+    else if cfg!(feature = "gl12") { (1,2) }
+    else if cfg!(feature = "gl13") { (1,3) }
+    else if cfg!(feature = "gl14") { (1,4) }
+    else if cfg!(feature = "gl15") { (1,5) }
+    else if cfg!(feature = "gl20") { (2,0) }
+    else if cfg!(feature = "gl21") { (2,1) }
+    else if cfg!(feature = "gl30") { (3,0) }
+    else if cfg!(feature = "gl31") { (3,1) }
+    else if cfg!(feature = "gl32") { (3,2) }
+    else if cfg!(feature = "gl33") { (3,3) }
+    else if cfg!(feature = "gl40") { (4,0) }
+    else if cfg!(feature = "gl41") { (4,1) }
+    else if cfg!(feature = "gl42") { (4,2) }
+    else if cfg!(feature = "gl43") { (4,3) }
+    else if cfg!(feature = "gl44") { (4,4) }
+    else if cfg!(feature = "gl45") { (4,5) }
+    else if cfg!(feature = "gl46") { (4,6) }
     else { (4,6) }
 }
 
